@@ -34,7 +34,8 @@ cd fastapi-azure-mcp
 
 2. Install dependencies using uv (recommended):
 ```bash
-uv sync
+uv init .
+uv add -r requirements.txt
 ```
 
 Or using pip:
