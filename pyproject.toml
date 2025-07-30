@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-azure-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.6"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi-azure-auth>=5.2.0",
+    "fastapi-mcp>=0.4.0",
+    "fastmcp>=2.10.6",
+    "requests>=2.32.4",
+    "uvicorn>=0.35.0",
+]
